@@ -1,0 +1,22 @@
+{
+  "name": "ConnectionPod",
+  "version": "0.1.0",
+  "summary": "A short description of ConnectionPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Gabo2494/ConnectionPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gabo2494": "marvingbrl1824@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Gabo2494/ConnectionPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ConnectionPod/Classes/**/*"
+}

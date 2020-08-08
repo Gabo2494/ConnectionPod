@@ -1,0 +1,16 @@
+PODS:
+  - ConnectionPod (0.1.0)
+
+DEPENDENCIES:
+  - ConnectionPod (from `../`)
+
+EXTERNAL SOURCES:
+  ConnectionPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConnectionPod: 6ace4a54d7b62f1f4740deaa8a2341b55f596f73
+
+PODFILE CHECKSUM: b92c50e921092a95b052fe450ce07c0510710055
+
+COCOAPODS: 1.9.1

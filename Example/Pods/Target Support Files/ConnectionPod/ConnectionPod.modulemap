@@ -1,0 +1,6 @@
+framework module ConnectionPod {
+  umbrella header "ConnectionPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

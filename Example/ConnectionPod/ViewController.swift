@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import ConnectionPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var x = MyUrlConnection.init(host: "qwertyhj")
     }
 
     override func didReceiveMemoryWarning() {
