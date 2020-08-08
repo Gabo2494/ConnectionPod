@@ -11,10 +11,12 @@ import ConnectionPod
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
+    var requestManager: RequestManager = RequestManager()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var x = MyUrlConnection.init(host: "qwertyhj")
+        self.requestManager.getAllPost(succes: setAllPost)
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,5 +24,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func setAllPost(data : [PostResult]?){
+        DispatchQueue.main.async {
+            if let list = data{
+                self.lbl.text! = "\(data!.count)"
+            }
+            
+        }
+    }
 }
 
